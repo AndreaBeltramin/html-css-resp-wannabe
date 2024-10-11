@@ -133,16 +133,8 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-	.container {
-		max-width: 100%;
-	}
-
 	.row {
 		flex-direction: column;
-	}
-
-	.steps {
-		margin: 0 auto;
 	}
 
 	.lessons .col {
@@ -153,9 +145,8 @@ img {
 		padding-bottom: 3rem;
 	}
 
-	.why-us .container {
-		background-color: rgb(34, 34, 34);
-		padding: 3rem;
+	.steps {
+		margin: 0 auto;
 	}
 
 	.steps .row {
@@ -166,12 +157,17 @@ img {
 		width: 100%;
 	}
 
-	.why-us h2 {
-		width: 98%;
-	}
-
 	.why-us {
 		margin-bottom: 0;
+	}
+
+	.why-us .container {
+		background-color: rgb(34, 34, 34);
+		padding: 3rem;
+	}
+
+	.why-us h2 {
+		width: 98%;
 	}
 
 	.why-us img {
